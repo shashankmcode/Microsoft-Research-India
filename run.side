@@ -51,7 +51,7 @@
     }, {
       "id": "354ead5a-e2f1-4762-8c1a-90d507fc2d14",
       "comment": "",
-      "command": "//click",
+      "command": "click",
       "target": "css=.generic-item:nth-child(1) > .article-content .material-icons",
       "targets": [],
       "value": ""
