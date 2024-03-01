@@ -22,8 +22,9 @@ jobs:
         # Install browser driver here (e.g., ChromeDriver)
 
     - name: Run tests
-      run: selenium-side-runner run.side
-   
+      run: selenium-side-runner --output-directory=$GITHUB_WORKSPACE/results run.side
+    
+
     - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
