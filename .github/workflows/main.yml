@@ -23,3 +23,9 @@ jobs:
 
     - name: Run tests
       run: selenium-side-runner run.side
+   
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: downloaded-file
+        path: . 
