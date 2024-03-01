@@ -1,0 +1,70 @@
+{
+  "id": "9b5bcc6c-369c-46dc-a52b-161047980ed1",
+  "version": "2.0",
+  "name": "Work",
+  "url": "https://www.mdpi.com/search?sort=pubdate&page_count=50",
+  "tests": [{
+    "id": "568603ec-b3f5-4cf0-af80-9adee502c8bd",
+    "name": "ret",
+    "commands": [{
+      "id": "055e40c7-f9da-42ab-8e6b-737ed568de6e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.mdpi.com/search?sort=pubdate&page_count=50",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82ac7c42-0b95-496d-ac74-bad1e1855620",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1067x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9c64e10-73d2-4d63-bc39-13e137fbdb9c",
+      "comment": "",
+      "command": "storeText",
+      "target": "id=CybotCookiebotDialogBodyButtonDecline",
+      "targets": [],
+      "value": "c"
+    }, {
+      "id": "05abf550-5a81-490b-baeb-efb6dea3ca72",
+      "comment": "",
+      "command": "echo",
+      "target": "${c}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "354ead5a-e2f1-4762-8c1a-90d507fc2d14",
+      "comment": "",
+      "command": "click",
+      "target": "css=.generic-item:nth-child(1) > .article-content .material-icons",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e5276e4-b58d-4538-827e-c00c8eaa36b2",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e76fd1b-91b7-4757-bec1-2627df4f5dd5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bff3efd5-2463-493a-8b65-327befd320f1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.mdpi.com/search?sort=pubdate&page_count=50"],
+  "plugins": []
+}
