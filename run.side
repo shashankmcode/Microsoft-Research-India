@@ -28,16 +28,30 @@
       "targets": [],
       "value": "c"
     }, {
-      "id": "05abf550-5a81-490b-baeb-efb6dea3ca72",
+      "id": "d923205e-2dc3-4c96-8554-2e83c61b7a03",
       "comment": "",
-      "command": "echo",
-      "target": "${c}",
+      "command": "if",
+      "target": "${c}==\"Deny\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb77235f-0fe9-42ec-9cee-f522ccf155ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=CybotCookiebotDialogBodyButtonDecline",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de2ee906-99c8-4707-afac-74dde47cfc54",
+      "comment": "",
+      "command": "end",
+      "target": "",
       "targets": [],
       "value": ""
     }, {
       "id": "354ead5a-e2f1-4762-8c1a-90d507fc2d14",
       "comment": "",
-      "command": "click",
+      "command": "//click",
       "target": "css=.generic-item:nth-child(1) > .article-content .material-icons",
       "targets": [],
       "value": ""
